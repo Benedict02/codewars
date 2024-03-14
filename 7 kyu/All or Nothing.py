@@ -15,4 +15,7 @@ def possibly_perfect(key, answers):
     else:
         return False
 
+if __name__ == "__main__":
+    print(possibly_perfect(['T','_','F','F'], ['F', 'T', 'T', '_']))
+
 #In the future, Go make this code efficient

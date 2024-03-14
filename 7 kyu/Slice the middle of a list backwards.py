@@ -7,5 +7,5 @@ def reverse_middle(lst):
     arr.reverse()
     return arr
 
-if __init__ == '__main__':
-    reverse_middle([4, 3, 100, 1])
+if __name__ == '__main__':
+    print(reverse_middle([4, 3, 100, 1]))
