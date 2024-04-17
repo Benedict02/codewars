@@ -1,14 +1,12 @@
 import sys
 
-def O(s, sep='\n'): sys.stdout.write(str(s) + sep)
+O = lambda s: sys.stdout.write(str(s))
 def I(): return sys.stdin.readline().replace('\n', '')
 def MI(): return list(map(int, sys.stdin.readline().replace('\n', '').split()))
 
-def Divisibility():
-    n = int(I())
-    for _ in range(n):
-        a, b = MI()
-        O((b - a % b)%b)
+def Lottery():
+    n = MI()
+    return n
 
 if __name__ == '__main__':
-    Divisibility()
+    O(Lottery())
