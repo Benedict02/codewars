@@ -1,6 +1,6 @@
 # Codewars
 
-This is a repository where I push my rank in codewars.
+This is a repository where I push my rank in codewars. Edit: I decided to mix it with codeforces.
 
 Personal commitment:
 
