@@ -1,16 +1,4 @@
-n = int(input())
+x = "2.5"
+y = 4.5
 
-#     *
-#    **
-#   ***
-#  ****
-# *****
-
-for i in range(1, n):
-    for j in range(n-i, 1, -1):
-        print(""*j, end=" ")
-    print("*"*i)
-
-
-# n = int(input())
-# [([print(""*j, end=" ") for j in range(n-i, 1, -1)], print("*"*i)) for i in range(1, n)]
+print(float(x) + y)
