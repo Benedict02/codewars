@@ -5,8 +5,14 @@ def I(): return sys.stdin.readline().replace('\n', '')
 def MII(): return list(map(int, sys.stdin.readline().replace('\n', '').split()))
 def MSI(): return list(sys.stdin.readline.replace('\n', ''))
 
-def FuncName():
-    pass
+def Copyx5():
+    t = int(I())
+    for _ in range(t):
+        n = int(I())
+        s = MII()
+        O(len(set(s)))
+
+
 
 if __name__ == '__main__':
-    FuncName()
+    Copyx5()

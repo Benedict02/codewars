@@ -11,12 +11,8 @@ def RecoveringASmallString():
     for _ in range(n):
         a = []
         s = int(I())
-
-        if s > 26:
-            a.append(26)
-        else:
-            a.append(s)
-        O(a)
+        for i in range(s):
+            
 
 
 
