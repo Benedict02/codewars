@@ -10,11 +10,7 @@ def FuncName():
     n = II()
     p = MII()
     q = MII()
-    a = []
-    x = list(set(sorted(p + q)))
-    for i in range(1, n+1):
-        a.append(i)
-    if a == x:
+    if len(list(set(p[1:]+q[1:]))):
         return "I become the guy."
     else:
         return "Oh, my keyboard!"
